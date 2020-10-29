@@ -1,7 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/anderua2/public_html/andersonabreujr
+    - export DEPLOYPATH=/home4/anderua2/public_html/andersonabreujr
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
-    
