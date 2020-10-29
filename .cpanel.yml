@@ -4,3 +4,4 @@ deployment:
     - export DEPLOYPATH=/home/anderua2/public_html/andersonabreujr
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
+    
