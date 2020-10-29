@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Anderson Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">What I do</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                <strong>Creating Reality</strong> Projects made into reality
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Anderson Abreu Jr. - Full Stack Developer</p>
+            <img src="img/picture2.jpg" alt="a picture of Anderson smiling" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Full Stack Developer</h3>
+                    <p>ReactJS Full Stack is a newly found passion! I have extensive hands-on experience on web applications from my immersive course at General Assembly and multiple projects I have completed. </p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Musician</h3>
+                    <p>Self-taught guitarist playing for six years now! I love what I do, and being able to do some passion projects with music and code has been fun and challenging! </p>
+                </div> <!-- / service -->
+                
+            </div>
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">About Me</h2>
+           <p class="section__subtitle section__subtitle--about">Developer based out of Greater Boston</p>
+           
+           <div class="about-me__body">
+               <p>Dedicated and experienced self-taught Guitarist with over five years of experience working in churches turned software engineer. I am an extremely focused and detail-oriented software engineer capable of accurately analyzing, programming, and debugging various issues and applications, bringing forth extensive hands-on experience with web applications and debugging—a strong communicator, able to address all questions and concerns. I am committed to optimal customer service and the proper creation and maintenance of software and web applications. </p>
+           </div>
+           
+           <img src="img/picture1.jpg" alt="Anderson in Boston" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">Feel free to navigate to some of my work!</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="http://nashvillenumbersystem.surge.sh/" target="_blank" class="portfolio__item">
+                    <img src="img/nashville.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="https://aboverealityguitarinstitute.herokuapp.com/" target="_blank" class="portfolio__item">
+                    <img src="img/lessons.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="https://datvisor.herokuapp.com/" target="_blank" class="portfolio__item">
+                    <img src="img/datvisor.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="https://stands-app.herokuapp.com/" target="_blank" class="portfolio__item">
+                    <img src="img/stands.png" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:mail@andersonabreujr.dev" class="footer__link">Send me an email!</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/andersonabreujr/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/andersonabreujr" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/AAbreuJr" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
